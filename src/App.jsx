@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
 import CustomCursor from "./components/CustomCursor";
+import EditorDemos from "./components/EditorDemos";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -14,11 +15,12 @@ const App = () => {
         <div className="absolute top-0 z-[-2] h-screen w-screen bg-white dark:bg-[#090f1b]"></div>
       </div>
       <div className="container mx-auto px-8">
-        <CustomCursor />
+        {/* <CustomCursor /> */}
         <Navbar />
         <Hero />
         <About />
         <Technologies />
+        <EditorDemos/>
         {/* <Experience /> */}
         {/* <Projects /> */}
         <Contact />
