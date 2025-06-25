@@ -104,40 +104,29 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const demoVideos = [
    {
     id: 1,
-    src: "https://res.cloudinary.com/dsbqmtwnv/video/upload/v1750812002/gbht7p6zhb08wf8od6kl.mp4",
+    src: "https://res.cloudinary.com/dsbqmtwnv/video/upload/v1750843561/lv_0_20250624160157_unqtdm.mp4",
     title: "Video Samples",
     tag: "",
   },
   {
     id: 2,
-    src: "https://res.cloudinary.com/dsbqmtwnv/video/upload/v1750812002/aoxtkf9xrwlzn62p4rtt.mp4",
+    src: "https://res.cloudinary.com/dsbqmtwnv/video/upload/v1750783709/ll0kikfmptvroqs80gsy.mp4",
     title: "Video Samples",
     tag: "",
   },
   {
     id: 3,
-    src: "https://res.cloudinary.com/dsbqmtwnv/video/upload/v1750812001/dqn75zmvkbm3tmrtgyvr.mp4",
+    src: "https://res.cloudinary.com/dsbqmtwnv/video/upload/v1750783705/dpjqz8xhmvxi53slchju.mp4",
     title: "Video Samples",
     tag: "",
   },
    {
-    id: 5,
-    src: "https://res.cloudinary.com/dsbqmtwnv/video/upload/v1750812002/gbht7p6zhb08wf8od6kl.mp4",
-    title: "Video Samples",
-    tag: "",
-  },
-  {
     id: 4,
-    src: "https://res.cloudinary.com/dsbqmtwnv/video/upload/v1750812002/aoxtkf9xrwlzn62p4rtt.mp4",
+    src: "https://res.cloudinary.com/dsbqmtwnv/video/upload/v1750783703/jiw8mpxskojqint1gvei.mp4",
     title: "Video Samples",
     tag: "",
   },
-  {
-    id: 6,
-    src: "https://res.cloudinary.com/dsbqmtwnv/video/upload/v1750812001/dqn75zmvkbm3tmrtgyvr.mp4",
-    title: "Video Samples",
-    tag: "",
-  },
+ 
 ];
 
 export default function EditorDemos() {
