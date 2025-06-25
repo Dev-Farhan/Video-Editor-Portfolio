@@ -47,7 +47,7 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p> */}
             <div className="">
-              <a href="mailto:faizedits.business@gmail.com">
+              <a href="mailto:business.faizan@outlook.com">
                 <motion.button
                   className="flex items-center gap-3 p-3 mb-5 text-xs md:text-sm text-white border border-white rounded-md 
     bg-transparent hover:bg-purple-500 hover:border-transparent md:px-10"

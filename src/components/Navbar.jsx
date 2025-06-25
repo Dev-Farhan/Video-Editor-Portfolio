@@ -1,6 +1,6 @@
 import Logo from "../assets/Logo.png";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
-
+import { FaInstagram, FaFacebook, } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-6">
@@ -9,19 +9,19 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
-          href="https://www.linkedin.com/in/mohd-farhan0678"
+         href="mailto:business.faizan@outlook.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram />
+        <MdEmail />
         </a>
-        <a
+        {/* <a
           href="https://github.com/Dev-Farhan"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaFacebook />
-        </a>
+        </a> */}
       </div>
     </nav>
   );

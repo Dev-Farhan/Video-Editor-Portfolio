@@ -125,5 +125,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Indore, Madhya Pradesh, India",
   phoneNo: "+91 82340 34564",
-  email: "faizedits.business@gmail.com",
+  email: "business.faizan@outlook.com",
 };

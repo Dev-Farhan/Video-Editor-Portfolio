@@ -35,6 +35,12 @@ const Technologies = () => {
         className="flex flex-wrap items-center justify-center gap-4"
       >
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 justify-items-center">
+                    <SkillIcon
+            icon={SiAdobepremierepro}
+            label="Adobe Premiere Pro"
+            colorClass="text-indigo-500"
+            duration={4}
+          />
           <SkillIcon
             icon={SiAdobeaftereffects}
             label="Adobe After Effects"
@@ -65,12 +71,7 @@ const Technologies = () => {
             colorClass="text-pink-500"
             duration={3}
           />
-          <SkillIcon
-            icon={SiAdobepremierepro}
-            label="Adobe Premiere Pro"
-            colorClass="text-indigo-500"
-            duration={4}
-          />
+
           <SkillIcon
             icon={SiDavinciresolve}
             label="DaVinci Resolve"
