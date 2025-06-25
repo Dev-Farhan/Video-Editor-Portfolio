@@ -1,4 +1,3 @@
-import aboutImg from "../assets/about1.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -26,8 +25,10 @@ const About = () => {
           <div className="w-full max-w-md mx-auto flex items-center justify-center">
             <img
               className="w-full h-full object-cover rounded-2xl"
-              src={aboutImg}
+              src='https://res.cloudinary.com/dsbqmtwnv/image/upload/v1750847014/about1_nrq1ev.jpg'
               alt="about"
+              loading="lazy"
+
             />
           </div>
         </motion.div>

@@ -1,8 +1,4 @@
-import profileImage from "../assets/hereo.jpg";
-import resume from "../assets/Md-Farhan-Resume.pdf";
-
 import { motion } from "framer-motion";
-import { MdOutlineFileDownload } from "react-icons/md";
 
 const container = (delay) => ({
   hidden: {
@@ -67,8 +63,9 @@ const Hero = () => {
           >
             <img
               className="w-full h-full object-cover"
-              src={profileImage}
+              src='https://res.cloudinary.com/dsbqmtwnv/image/upload/v1750847014/hereo_flicgy.jpg'
               alt="Farhan"
+              loading="lazy"
             />
           </motion.div>
         </div>
