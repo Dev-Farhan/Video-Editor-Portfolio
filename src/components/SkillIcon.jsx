@@ -24,7 +24,7 @@ const SkillIcon = ({ icon: Icon, label, colorClass, duration }) => {
       <motion.div className={`text-5xl md:text-9xl ${colorClass}`}>
         <Icon />
       </motion.div>
-      <span className="mt-2 text-xs md:text-sm font-medium px-2">{label}</span>
+      <span className="mt-2 text-xs text-center md:text-sm font-medium px-2">{label}</span>
     </motion.div>
   );
 };
